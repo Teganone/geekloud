@@ -1,0 +1,44 @@
+{
+  "software": "Ranger",
+  "platform_link": "https://issues.apache.org/jira/projects/RANGER",
+  "git_link": "https://github.com/apache/ranger",
+  "description": "Ranger\u63d0\u4f9b\u4e00\u4e2a\u96c6\u4e2d\u5f0f\u5b89\u5168\u7ba1\u7406\u6846\u67b6, \u5e76\u89e3\u51b3\u6388\u6743\u548c\u5ba1\u8ba1\u3002\u5b83\u53ef\u4ee5\u5bf9Hadoop\u751f\u6001\u7684\u7ec4\u4ef6\u5982HDFS\u3001Yarn\u3001Hive\u3001Hbase\u7b49\u8fdb\u884c\u7ec6\u7c92\u5ea6\u7684\u6570\u636e\u8bbf\u95ee\u63a7\u5236\u3002\u901a\u8fc7\u64cd\u4f5cRanger\u63a7\u5236\u53f0,\u7ba1\u7406\u5458\u53ef\u4ee5\u8f7b\u677e\u7684\u901a\u8fc7\u914d\u7f6e\u7b56\u7565\u6765\u63a7\u5236\u7528\u6237\u8bbf\u95ee\u6743\u9650\u3002",
+  "language": [
+    "Java",
+    "JavaScript",
+    "Python",
+    "TSQL",
+    "Shell",
+    "HTML",
+    "Other"
+  ],
+  "version": [
+    "release-ranger-2.2.0",
+    "release-ranger-2.1.0",
+    "release-ranger-1.2.0",
+    "release-ranger-2.0.0",
+    "release-ranger-1.1.0",
+    "release-ranger-0.7.1",
+    "release-ranger-1.0.0"
+  ],
+  "versions_dates": {
+    "2.2.0": "01/Nov/21",
+    "2.1.0": "03/Sep/20",
+    "1.2.0": "04/Oct/18",
+    "2.0.0": "07/Aug/19",
+    "1.1.0": "09/Jul/18",
+    "0.7.1": "07/Jun/17",
+    "1.0.0": "20/Mar/18",
+    "0.6.3": "30/Jan/17",
+    "0.6.2": "08/Nov/16",
+    "0.6.1": "20/Aug/16",
+    "0.7.0": "27/Feb/17",
+    "0.5.3": "31/May/16",
+    "0.6.0": "18/Jul/16",
+    "0.5.2": "29/Feb/16",
+    "0.5.1": "26/Jan/16",
+    "0.5.0": "10/Jun/15",
+    "0.4.0": "17/Nov/14"
+  },
+  "package_manager": "maven"
+}

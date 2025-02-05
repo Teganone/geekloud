@@ -1,0 +1,2 @@
+2023-06-13 19:37:44,097 - interface.py[line:104] - ERROR: source SBOM format is not legal for compare
+2023-06-13 19:37:44,097 - interface.py[line:344] - INFO: Finish

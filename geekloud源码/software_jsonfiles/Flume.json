@@ -1,0 +1,43 @@
+{
+  "software": "Flume",
+  "platform_link": "https://issues.apache.org/jira/projects/FLUME",
+  "git_link": "https://github.com/apache/flume",
+  "description": "Flume\u662f\u4e00\u79cd\u5206\u5e03\u5f0f\u3001\u53ef\u9760\u4e14\u53ef\u7528\u7684\u8f6f\u4ef6\uff0c\u7528\u4e8e\u6709\u6548\u6536\u96c6\u3001\u805a\u5408\u548c\u79fb\u52a8\u5927\u91cf\u65e5\u5fd7\u6570\u636e\u3002\u5b83\u5177\u6709\u57fa\u4e8e\u6d41\u6570\u636e\u6d41\u7684\u7b80\u5355\u7075\u6d3b\u7684\u67b6\u6784\u3002\u5b83\u5177\u6709\u53ef\u8c03\u6574\u7684\u53ef\u9760\u6027\u673a\u5236\u4ee5\u53ca\u8bb8\u591a\u6545\u969c\u8f6c\u79fb\u548c\u6062\u590d\u673a\u5236\uff0c\u5177\u6709\u5065\u58ee\u6027\u548c\u5bb9\u9519\u6027\u3002\u5b83\u4f7f\u7528\u5141\u8bb8\u5728\u7ebf\u5206\u6790\u5e94\u7528\u7a0b\u5e8f\u7684\u7b80\u5355\u53ef\u6269\u5c55\u6570\u636e\u6a21\u578b",
+  "language": [
+    "Java",
+    "Rich Text Format",
+    "Shell",
+    "PowerShell",
+    "Python",
+    "Thrift"
+  ],
+  "version": [
+    "release-1.9.0",
+    "release-1.8.0",
+    "release-1.7.0",
+    "release-1.5.2",
+    "release-1.5.1",
+    "release-1.6.0",
+    "release-1.5.0.1",
+    "release-1.5.0"
+  ],
+  "versions_dates": {
+    "1.9.0": "08/Jan/19",
+    "1.8.0": "04/Oct/17",
+    "1.7.0": "17/Oct/16",
+    "1.5.2": "17/Nov/14",
+    "1.5.1": "10/Nov/14",
+    "1.6.0": "18/May/15",
+    "1.5.0.1": "16/Jun/14",
+    "1.5.0": "20/May/14",
+    "1.3.1": "02/Jan/13",
+    "1.4.0": "07/Jul/13",
+    "1.3.0": "02/Dec/12",
+    "1.2.0": "26/Jul/12",
+    "1.1.0": "25/Mar/12",
+    "1.0.0": "03/Jan/12",
+    "NG alpha 2": "07/Nov/11",
+    "NG alpha 1": "21/Oct/11"
+  },
+  "package_manager": "maven"
+}

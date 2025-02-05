@@ -1,0 +1,2024 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "metadata": {
+        "timestamp": "2023-06-13T08:00:13Z",
+        "tools": [
+            {
+                "verdor": "GeekLoud",
+                "name": "geek",
+                "version": "1.0"
+            }
+        ],
+        "component": {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-annotations",
+            "version": "2.10.5",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.5?type=jar",
+            "type": "jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.5?type=jar"
+        }
+    },
+    "components": [
+        {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-annotations",
+            "version": "2.10.5",
+            "type": "jar",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.5?type=jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.5?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-codec-http",
+            "version": "4.1.48.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-codec-http@4.1.48.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.48.Final?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-api",
+            "version": "1.7.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-xml",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-xml@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-xml@?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-log4j12",
+            "version": "1.7.33",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.33?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.33?type=jar"
+        },
+        {
+            "group": "log4j",
+            "name": "log4j",
+            "version": "1.2.17",
+            "type": "jar",
+            "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+            "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-api",
+            "version": "1.7.33",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.33?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.33?type=jar"
+        },
+        {
+            "group": "com.typesafe.netty",
+            "name": "netty-reactive-streams",
+            "version": "2.0.4",
+            "type": "jar",
+            "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+            "bom-ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-annotation",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-annotation@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-annotation@?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-api",
+            "version": "1.7.30",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-recipes",
+            "version": "5.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-recipes@5.1.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-recipes@5.1.0?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-api",
+            "version": "dubbo-demo-api-provider",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-api@dubbo-demo-api-provider?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-api@dubbo-demo-api-provider?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-annotation",
+            "version": "dubbo-demo-annotation-provider",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-annotation@dubbo-demo-annotation-provider?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-annotation@dubbo-demo-annotation-provider?type=jar"
+        },
+        {
+            "group": "org.apache.maven",
+            "name": "maven-model",
+            "version": "29",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.maven/maven-model@29?type=jar",
+            "bom-ref": "pkg:maven/org.apache.maven/maven-model@29?type=jar"
+        },
+        {
+            "group": "org.objenesis",
+            "name": "objenesis",
+            "version": "3.1",
+            "type": "jar",
+            "purl": "pkg:maven/org.objenesis/objenesis@3.1?type=jar",
+            "bom-ref": "pkg:maven/org.objenesis/objenesis@3.1?type=jar"
+        },
+        {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-core",
+            "version": "2.10.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0?type=jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0?type=jar"
+        },
+        {
+            "group": "org.apache.yetus",
+            "name": "audience-annotations",
+            "version": "0.5.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?type=jar"
+        },
+        {
+            "group": "jline",
+            "name": "jline",
+            "version": "2.14.6",
+            "type": "jar",
+            "purl": "pkg:maven/jline/jline@2.14.6?type=jar",
+            "bom-ref": "pkg:maven/jline/jline@2.14.6?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-spring-boot",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@?type=jar"
+        },
+        {
+            "group": "org.springframework.boot",
+            "name": "spring-boot",
+            "version": "2.7.9",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.9?type=jar",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.9?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-aop",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-aop@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.25?type=jar"
+        },
+        {
+            "group": "org.yaml",
+            "name": "snakeyaml",
+            "version": "1.30",
+            "type": "jar",
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
+            "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar"
+        },
+        {
+            "group": "ch.qos.logback",
+            "name": "logback-core",
+            "version": "1.2.11",
+            "type": "jar",
+            "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar",
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"
+        },
+        {
+            "group": "org.apache.logging.log4j",
+            "name": "log4j-to-slf4j",
+            "version": "2.17.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2?type=jar",
+            "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2?type=jar"
+        },
+        {
+            "group": "org.springframework.boot",
+            "name": "spring-boot-starter-logging",
+            "version": "2.7.9",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.7.9?type=jar",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.7.9?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "jul-to-slf4j",
+            "version": "1.7.36",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar"
+        },
+        {
+            "group": "org.springframework.boot",
+            "name": "spring-boot-autoconfigure",
+            "version": "2.7.9",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.9?type=jar",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.9?type=jar"
+        },
+        {
+            "group": "ch.qos.logback",
+            "name": "logback-classic",
+            "version": "1.2.11",
+            "type": "jar",
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar",
+            "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-expression",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-expression@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.25?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-context",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-context@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.25?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-core",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-core@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.25?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-beans",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-beans@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.25?type=jar"
+        },
+        {
+            "group": "jakarta.annotation",
+            "name": "jakarta.annotation-api",
+            "version": "1.3.5",
+            "type": "jar",
+            "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+            "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar"
+        },
+        {
+            "group": "org.springframework",
+            "name": "spring-jcl",
+            "version": "5.3.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework/spring-jcl@5.3.25?type=jar",
+            "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.25?type=jar"
+        },
+        {
+            "group": "org.springframework.boot",
+            "name": "spring-boot-starter",
+            "version": "2.7.9",
+            "type": "jar",
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.9?type=jar",
+            "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.9?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-netty-shaded",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-netty-shaded@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-netty-shaded@1.53.0?type=jar"
+        },
+        {
+            "group": "dubbo-dependencies",
+            "name": "dubbo-dependencies-zookeeper",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper@?type=jar"
+        },
+        {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-annotations",
+            "version": "2.10.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.0?type=jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.0?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty",
+            "version": "3.10.6.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty@3.10.6.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty@3.10.6.Final?type=jar"
+        },
+        {
+            "group": "org.apache.zookeeper",
+            "name": "zookeeper",
+            "version": "3.4.14",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14?type=jar",
+            "bom-ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14?type=jar"
+        },
+        {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-databind",
+            "version": "2.10.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0?type=jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-recipes",
+            "version": "21",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-recipes@21?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-recipes@21?type=jar"
+        },
+        {
+            "group": "com.github.spotbugs",
+            "name": "spotbugs-annotations",
+            "version": "3.1.9",
+            "type": "jar",
+            "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations@3.1.9?type=jar",
+            "bom-ref": "pkg:maven/com.github.spotbugs/spotbugs-annotations@3.1.9?type=jar"
+        },
+        {
+            "group": "com.google.code.findbugs",
+            "name": "jsr305",
+            "version": "3.0.2",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+            "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+        },
+        {
+            "group": "org.apache.dubbo",
+            "name": "dubbo-dependencies-zookeeper",
+            "version": "3.2.0-beta.6-SNAPSHOT",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "bom-ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper@3.2.0-beta.6-SNAPSHOT?type=jar"
+        },
+        {
+            "group": "jline",
+            "name": "jline",
+            "version": "0.9.94",
+            "type": "jar",
+            "purl": "pkg:maven/jline/jline@0.9.94?type=jar",
+            "bom-ref": "pkg:maven/jline/jline@0.9.94?type=jar"
+        },
+        {
+            "group": "junit",
+            "name": "junit",
+            "version": "3.8.1",
+            "type": "jar",
+            "purl": "pkg:maven/junit/junit@3.8.1?type=jar",
+            "bom-ref": "pkg:maven/junit/junit@3.8.1?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-x-discovery",
+            "version": "4.3.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-x-discovery@4.3.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-x-discovery@4.3.0?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-log4j12",
+            "version": "1.7.25",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.25?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.25?type=jar"
+        },
+        {
+            "name": "dubbo-native-plugin",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-native-plugin@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-native-plugin@?type=jar"
+        },
+        {
+            "group": "org.apache.maven",
+            "name": "maven-plugin-api",
+            "version": "3.9.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.9.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.maven/maven-plugin-api@3.9.0?type=jar"
+        },
+        {
+            "group": "commons-io",
+            "name": "commons-io",
+            "version": "2.11.0",
+            "type": "jar",
+            "purl": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+            "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+        },
+        {
+            "group": "org.apache.maven",
+            "name": "maven-artifact",
+            "version": "29",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.maven/maven-artifact@29?type=jar",
+            "bom-ref": "pkg:maven/org.apache.maven/maven-artifact@29?type=jar"
+        },
+        {
+            "group": "org.eclipse.sisu",
+            "name": "org.eclipse.sisu.plexus",
+            "version": "0.3.5",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"
+        },
+        {
+            "group": "org.eclipse.sisu",
+            "name": "org.eclipse.sisu.inject",
+            "version": "0.3.5",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"
+        },
+        {
+            "group": "javax.annotation",
+            "name": "javax.annotation-api",
+            "version": "1.3.2",
+            "type": "jar",
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar",
+            "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar"
+        },
+        {
+            "group": "org.codehaus.plexus",
+            "name": "plexus-utils",
+            "version": "3.4.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@3.4.2?type=jar",
+            "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-utils@3.4.2?type=jar"
+        },
+        {
+            "group": "org.codehaus.plexus",
+            "name": "plexus-component-annotations",
+            "version": "2.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar",
+            "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"
+        },
+        {
+            "group": "org.codehaus.plexus",
+            "name": "plexus-classworlds",
+            "version": "2.6.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar",
+            "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-framework",
+            "version": "4.3.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-framework@4.3.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-framework@4.3.0?type=jar"
+        },
+        {
+            "group": "org.asynchttpclient",
+            "name": "async-http-client-netty-utils",
+            "version": "2.12.1",
+            "type": "jar",
+            "purl": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.1?type=jar",
+            "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.1?type=jar"
+        },
+        {
+            "group": "org.apache.maven.shared",
+            "name": "maven-common-artifact-filters",
+            "version": "3.3.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.3.2?type=jar",
+            "bom-ref": "pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.3.2?type=jar"
+        },
+        {
+            "group": "org.apache.dubbo",
+            "name": "dubbo-dependencies-zookeeper-curator5",
+            "version": "3.2.0-beta.6-SNAPSHOT",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper-curator5@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "bom-ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper-curator5@3.2.0-beta.6-SNAPSHOT?type=jar"
+        },
+        {
+            "group": "io.micrometer",
+            "name": "context-propagation",
+            "version": "1.0.2",
+            "type": "jar",
+            "purl": "pkg:maven/io.micrometer/context-propagation@1.0.2?type=jar",
+            "bom-ref": "pkg:maven/io.micrometer/context-propagation@1.0.2?type=jar"
+        },
+        {
+            "group": "org.apache.zookeeper",
+            "name": "zookeeper-jute",
+            "version": "23",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper-jute@23?type=jar",
+            "bom-ref": "pkg:maven/org.apache.zookeeper/zookeeper-jute@23?type=jar"
+        },
+        {
+            "group": "javax.servlet",
+            "name": "javax.servlet-api",
+            "version": "3.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+            "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+        },
+        {
+            "group": "net.bytebuddy",
+            "name": "byte-buddy",
+            "version": "1.10.18",
+            "type": "jar",
+            "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.10.18?type=jar",
+            "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.10.18?type=jar"
+        },
+        {
+            "group": "org.apache.dubbo",
+            "name": "dubbo-build-tools",
+            "version": "1.0.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.dubbo/dubbo-build-tools@1.0.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.dubbo/dubbo-build-tools@1.0.0?type=jar"
+        },
+        {
+            "group": "org.apache.dubbo",
+            "name": "dubbo-parent",
+            "version": "3.2.0-beta.6-SNAPSHOT",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.dubbo/dubbo-parent@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "bom-ref": "pkg:maven/org.apache.dubbo/dubbo-parent@3.2.0-beta.6-SNAPSHOT?type=jar"
+        },
+        {
+            "group": "org.apache.commons",
+            "name": "commons-exec",
+            "version": "1.3",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+            "bom-ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-recipes",
+            "version": "4.3.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-recipes@4.3.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-recipes@4.3.0?type=jar"
+        },
+        {
+            "group": "com.google.code.gson",
+            "name": "gson",
+            "version": "2.8.9",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
+            "bom-ref": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-framework",
+            "version": "4.2.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-framework@4.2.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-framework@4.2.0?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-api",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-api@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-api@1.53.0?type=jar"
+        },
+        {
+            "group": "org.apache.dubbo",
+            "name": "dubbo-dependencies-bom",
+            "version": "3.2.0-beta.6-SNAPSHOT",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.dubbo/dubbo-dependencies-bom@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "bom-ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-bom@3.2.0-beta.6-SNAPSHOT?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-handler",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-handler@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-handler@9?type=jar"
+        },
+        {
+            "group": "com.google.protobuf",
+            "name": "protobuf-java-util",
+            "version": "3.22.2",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java-util@3.22.2?type=jar",
+            "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java-util@3.22.2?type=jar"
+        },
+        {
+            "group": "io.micrometer",
+            "name": "micrometer-observation",
+            "version": "1.10.4",
+            "type": "jar",
+            "purl": "pkg:maven/io.micrometer/micrometer-observation@1.10.4?type=jar",
+            "bom-ref": "pkg:maven/io.micrometer/micrometer-observation@1.10.4?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-x-discovery",
+            "version": "5.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-x-discovery@5.1.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-x-discovery@5.1.0?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-api",
+            "version": "1.7.36",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+        },
+        {
+            "group": "org.apiguardian",
+            "name": "apiguardian-api",
+            "version": "1.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+            "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-http",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "org.apache.commons",
+            "name": "commons-compress",
+            "version": "1.22",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.22?type=jar",
+            "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.22?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-server",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-codec-http",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-codec-http@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-codec-http@9?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-codec",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-codec@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-codec@9?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-buffer",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-buffer@9?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-buffer@9?type=jar"
+        },
+        {
+            "group": "dubbo-spring-boot",
+            "name": "dubbo-spring-boot-observability-starter",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-spring-boot/dubbo-spring-boot-observability-starter@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-spring-boot/dubbo-spring-boot-observability-starter@?type=jar"
+        },
+        {
+            "group": "io.micrometer",
+            "name": "micrometer-commons",
+            "version": "1.10.4",
+            "type": "jar",
+            "purl": "pkg:maven/io.micrometer/micrometer-commons@1.10.4?type=jar",
+            "bom-ref": "pkg:maven/io.micrometer/micrometer-commons@1.10.4?type=jar"
+        },
+        {
+            "group": "io.micrometer",
+            "name": "micrometer-core",
+            "version": "1.10.4",
+            "type": "jar",
+            "purl": "pkg:maven/io.micrometer/micrometer-core@1.10.4?type=jar",
+            "bom-ref": "pkg:maven/io.micrometer/micrometer-core@1.10.4?type=jar"
+        },
+        {
+            "group": "aopalliance",
+            "name": "aopalliance",
+            "version": "1.0",
+            "type": "jar",
+            "purl": "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+            "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
+        },
+        {
+            "group": "io.micrometer",
+            "name": "micrometer-tracing",
+            "version": "1.0.2",
+            "type": "jar",
+            "purl": "pkg:maven/io.micrometer/micrometer-tracing@1.0.2?type=jar",
+            "bom-ref": "pkg:maven/io.micrometer/micrometer-tracing@1.0.2?type=jar"
+        },
+        {
+            "group": "commons-cli",
+            "name": "commons-cli",
+            "version": "1.4",
+            "type": "jar",
+            "purl": "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+            "bom-ref": "pkg:maven/commons-cli/commons-cli@1.4?type=jar"
+        },
+        {
+            "group": "redis.clients",
+            "name": "jedis",
+            "version": "3.9.0",
+            "type": "jar",
+            "purl": "pkg:maven/redis.clients/jedis@3.9.0?type=jar",
+            "bom-ref": "pkg:maven/redis.clients/jedis@3.9.0?type=jar"
+        },
+        {
+            "name": "dubbo-maven-plugin",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-maven-plugin@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-maven-plugin@?type=jar"
+        },
+        {
+            "group": "dubbo-metadata",
+            "name": "dubbo-metadata-report-redis",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-metadata/dubbo-metadata-report-redis@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-metadata/dubbo-metadata-report-redis@?type=jar"
+        },
+        {
+            "group": "org.apache.commons",
+            "name": "commons-pool2",
+            "version": "2.11.1",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+            "bom-ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-core",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-core@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-core@1.53.0?type=jar"
+        },
+        {
+            "group": "org.apache.zookeeper",
+            "name": "zookeeper",
+            "version": "3.7.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper@3.7.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.7.0?type=jar"
+        },
+        {
+            "group": "com.google.j2objc",
+            "name": "j2objc-annotations",
+            "version": "1.3",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
+            "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-codec-socks",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-codec-socks@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-codec-socks@9?type=jar"
+        },
+        {
+            "group": "org.opentest4j",
+            "name": "opentest4j",
+            "version": "1.2.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+            "bom-ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-handler-proxy",
+            "version": "4.1.48.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.48.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.48.Final?type=jar"
+        },
+        {
+            "group": "org.reactivestreams",
+            "name": "reactive-streams",
+            "version": "1.0.3",
+            "type": "jar",
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+            "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+        },
+        {
+            "group": "com.google.guava",
+            "name": "failureaccess",
+            "version": "1.0.1",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+            "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-client",
+            "version": "21",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-client@21?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-client@21?type=jar"
+        },
+        {
+            "name": "pom.xml",
+            "type": "jar",
+            "purl": "pkg:maven/pom.xml@?type=jar",
+            "bom-ref": "pkg:maven/pom.xml@?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-io",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "com.google.errorprone",
+            "name": "error_prone_annotations",
+            "version": "2.11.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar",
+            "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar"
+        },
+        {
+            "group": "org.junit.platform",
+            "name": "junit-platform-engine",
+            "version": "1.6.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.6.2?type=jar",
+            "bom-ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.6.2?type=jar"
+        },
+        {
+            "group": "com.google.guava",
+            "name": "listenablefuture",
+            "version": "9999.0-empty-to-avoid-conflict-with-guava",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+            "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-transport",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-transport@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-transport@9?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-common",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-common@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-common@9?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-transport",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-transport@9?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-transport@9?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-protobuf",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-protobuf@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-protobuf@1.53.0?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-transport-native-unix-common",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@9?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@9?type=jar"
+        },
+        {
+            "group": "org.checkerframework",
+            "name": "checker-qual",
+            "version": "3.12.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
+            "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-security",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-util-ajax",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "com.google.api.grpc",
+            "name": "proto-google-common-protos",
+            "version": "2.9.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.9.0?type=jar",
+            "bom-ref": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.9.0?type=jar"
+        },
+        {
+            "group": "org.apache.yetus",
+            "name": "audience-annotations",
+            "version": "0.12.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.yetus/audience-annotations@0.12.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.yetus/audience-annotations@0.12.0?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-protobuf-lite",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-protobuf-lite@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-protobuf-lite@1.53.0?type=jar"
+        },
+        {
+            "group": "net.bytebuddy",
+            "name": "byte-buddy-agent",
+            "version": "1.10.18",
+            "type": "jar",
+            "purl": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.10.18?type=jar",
+            "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.10.18?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-codec-socks",
+            "version": "4.1.48.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.48.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.48.Final?type=jar"
+        },
+        {
+            "group": "org.xerial.snappy",
+            "name": "snappy-java",
+            "version": "1.1.7.7",
+            "type": "jar",
+            "purl": "pkg:maven/org.xerial.snappy/snappy-java@1.1.7.7?type=jar",
+            "bom-ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.7.7?type=jar"
+        },
+        {
+            "group": "org.slf4j",
+            "name": "slf4j-log4j12",
+            "version": "1.7.30",
+            "type": "jar",
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30?type=jar",
+            "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30?type=jar"
+        },
+        {
+            "group": "org.apache.curator",
+            "name": "curator-framework",
+            "version": "5.1.0",
+            "type": "jar",
+            "purl": "pkg:maven/org.apache.curator/curator-framework@5.1.0?type=jar",
+            "bom-ref": "pkg:maven/org.apache.curator/curator-framework@5.1.0?type=jar"
+        },
+        {
+            "group": "org.junit.platform",
+            "name": "junit-platform-commons",
+            "version": "1.6.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.6.2?type=jar",
+            "bom-ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.6.2?type=jar"
+        },
+        {
+            "group": "com.sun.activation",
+            "name": "javax.activation",
+            "version": "1.2.0",
+            "type": "jar",
+            "purl": "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar",
+            "bom-ref": "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-buffer",
+            "version": "4.1.48.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.48.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.48.Final?type=jar"
+        },
+        {
+            "group": "io.dropwizard.metrics",
+            "name": "metrics-core",
+            "version": "4.1.12.1",
+            "type": "jar",
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?type=jar",
+            "bom-ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-handler",
+            "version": "4.1.59.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-handler@4.1.59.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.59.Final?type=jar"
+        },
+        {
+            "group": "org.mockito",
+            "name": "mockito-core",
+            "version": "3.6.28",
+            "type": "jar",
+            "purl": "pkg:maven/org.mockito/mockito-core@3.6.28?type=jar",
+            "bom-ref": "pkg:maven/org.mockito/mockito-core@3.6.28?type=jar"
+        },
+        {
+            "group": "org.junit.platform",
+            "name": "junit-platform-launcher",
+            "version": "1.6.2",
+            "type": "jar",
+            "purl": "pkg:maven/org.junit.platform/junit-platform-launcher@1.6.2?type=jar",
+            "bom-ref": "pkg:maven/org.junit.platform/junit-platform-launcher@1.6.2?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-common",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-common@9?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-common@9?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-client",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-transport-native-epoll",
+            "version": "4.1.59.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.59.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.59.Final?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-context",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-context@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-context@1.53.0?type=jar"
+        },
+        {
+            "group": "com.google.guava",
+            "name": "guava",
+            "version": "31.1-android",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.guava/guava@31.1-android?type=jar",
+            "bom-ref": "pkg:maven/com.google.guava/guava@31.1-android?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-buffer",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-buffer@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-buffer@9?type=jar"
+        },
+        {
+            "group": "io.grpc",
+            "name": "grpc-stub",
+            "version": "1.53.0",
+            "type": "jar",
+            "purl": "pkg:maven/io.grpc/grpc-stub@1.53.0?type=jar",
+            "bom-ref": "pkg:maven/io.grpc/grpc-stub@1.53.0?type=jar"
+        },
+        {
+            "group": "org.asynchttpclient",
+            "name": "async-http-client",
+            "version": "2.12.1",
+            "type": "jar",
+            "purl": "pkg:maven/org.asynchttpclient/async-http-client@2.12.1?type=jar",
+            "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.1?type=jar"
+        },
+        {
+            "group": "com.google.protobuf",
+            "name": "protobuf-java",
+            "version": "3.22.2",
+            "type": "jar",
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.22.2?type=jar",
+            "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java@3.22.2?type=jar"
+        },
+        {
+            "group": "io.netty",
+            "name": "netty-handler",
+            "version": "4.1.48.Final",
+            "type": "jar",
+            "purl": "pkg:maven/io.netty/netty-handler@4.1.48.Final?type=jar",
+            "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.48.Final?type=jar"
+        },
+        {
+            "group": "org.sonatype.oss",
+            "name": "netty-resolver",
+            "version": "9",
+            "type": "jar",
+            "purl": "pkg:maven/org.sonatype.oss/netty-resolver@9?type=jar",
+            "bom-ref": "pkg:maven/org.sonatype.oss/netty-resolver@9?type=jar"
+        },
+        {
+            "group": "org.eclipse.jetty",
+            "name": "jetty-servlet",
+            "version": "9.4.38.v20210224",
+            "type": "jar",
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.38.v20210224?type=jar",
+            "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.38.v20210224?type=jar"
+        },
+        {
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-databind",
+            "version": "2.10.5.1",
+            "type": "jar",
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.5.1?type=jar",
+            "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.5.1?type=jar"
+        },
+        {
+            "group": "dubbo-test",
+            "name": "dubbo-test-check",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-test/dubbo-test-check@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-test/dubbo-test-check@?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-triple",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-triple@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-triple@?type=jar"
+        },
+        {
+            "group": "dubbo-dependencies",
+            "name": "dubbo-dependencies-zookeeper-curator5",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper-curator5@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper-curator5@?type=jar"
+        },
+        {
+            "name": "dubbo-dependencies",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-dependencies@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-dependencies@?type=jar"
+        },
+        {
+            "name": ".",
+            "type": "jar",
+            "purl": "pkg:maven/.@?type=jar",
+            "bom-ref": "pkg:maven/.@?type=jar"
+        },
+        {
+            "name": "dubbo-spring-boot",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-spring-boot@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-spring-boot@?type=jar"
+        },
+        {
+            "name": "dubbo-demo",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo@?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-xml",
+            "version": "dubbo-demo-xml-provider",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-xml@dubbo-demo-xml-provider?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-xml@dubbo-demo-xml-provider?type=jar"
+        },
+        {
+            "name": "dubbo-rpc",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-rpc@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-rpc@?type=jar"
+        },
+        {
+            "name": "dubbo-build-tools",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-build-tools@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-build-tools@?type=jar"
+        },
+        {
+            "group": "dubbo-remoting",
+            "name": "dubbo-remoting-zookeeper-curator5",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper-curator5@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper-curator5@?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-spring-boot",
+            "version": "dubbo-demo-spring-boot-consumer",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-consumer?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-consumer?type=jar"
+        },
+        {
+            "group": "dubbo-rpc",
+            "name": "dubbo-rpc-triple",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-rpc/dubbo-rpc-triple@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-rpc/dubbo-rpc-triple@?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-spring-boot",
+            "version": "dubbo-demo-spring-boot-provider",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-provider?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-provider?type=jar"
+        },
+        {
+            "name": "dubbo-xds",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-xds@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-xds@?type=jar"
+        },
+        {
+            "name": "dubbo-remoting",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-remoting@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-remoting@?type=jar"
+        },
+        {
+            "name": "dubbo-dependencies-bom",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-dependencies-bom@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-dependencies-bom@?type=jar"
+        },
+        {
+            "group": "dubbo-test",
+            "name": "dubbo-test-spring",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-test/dubbo-test-spring@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-test/dubbo-test-spring@?type=jar"
+        },
+        {
+            "group": "dubbo-demo",
+            "name": "dubbo-demo-api",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-demo/dubbo-demo-api@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-demo/dubbo-demo-api@?type=jar"
+        },
+        {
+            "group": "dubbo-remoting",
+            "name": "dubbo-remoting-zookeeper",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper@?type=jar"
+        },
+        {
+            "name": "dubbo-metadata",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-metadata@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-metadata@?type=jar"
+        },
+        {
+            "name": "dubbo-test",
+            "type": "jar",
+            "purl": "pkg:maven/dubbo-test@?type=jar",
+            "bom-ref": "pkg:maven/dubbo-test@?type=jar"
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.5?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-codec-http@4.1.48.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-xml@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.33?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.33?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-annotation@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-recipes@5.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-api@dubbo-demo-api-provider?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-annotation@dubbo-demo-annotation-provider?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.maven/maven-model@29?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.objenesis/objenesis@3.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.yetus/audience-annotations@0.5.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/jline/jline@2.14.6?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-aop@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.7.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-expression@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-context@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-core@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-beans@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework/spring-jcl@5.3.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-netty-shaded@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty@3.10.6.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.4.14?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-recipes@21?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.github.spotbugs/spotbugs-annotations@3.1.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/jline/jline@0.9.94?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/junit/junit@3.8.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-x-discovery@4.3.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.25?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-native-plugin@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.maven/maven-plugin-api@3.9.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.maven/maven-artifact@29?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.plexus/plexus-utils@3.4.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-framework@4.3.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.3.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-zookeeper-curator5@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.micrometer/context-propagation@1.0.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.zookeeper/zookeeper-jute@23?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/net.bytebuddy/byte-buddy@1.10.18?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.dubbo/dubbo-build-tools@1.0.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.dubbo/dubbo-parent@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-recipes@4.3.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-framework@4.2.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-api@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.dubbo/dubbo-dependencies-bom@3.2.0-beta.6-SNAPSHOT?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-handler@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.protobuf/protobuf-java-util@3.22.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.micrometer/micrometer-observation@1.10.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-x-discovery@5.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.commons/commons-compress@1.22?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-codec-http@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-codec@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-buffer@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-spring-boot/dubbo-spring-boot-observability-starter@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.micrometer/micrometer-commons@1.10.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.micrometer/micrometer-core@1.10.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.micrometer/micrometer-tracing@1.0.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/commons-cli/commons-cli@1.4?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/redis.clients/jedis@3.9.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-maven-plugin@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-metadata/dubbo-metadata-report-redis@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.commons/commons-pool2@2.11.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-core@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.zookeeper/zookeeper@3.7.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-codec-socks@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.opentest4j/opentest4j@1.2.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.48.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-client@21?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/pom.xml@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.junit.platform/junit-platform-engine@1.6.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-transport@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-common@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-transport@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-protobuf@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.api.grpc/proto-google-common-protos@2.9.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.yetus/audience-annotations@0.12.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-protobuf-lite@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.10.18?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.48.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.xerial.snappy/snappy-java@1.1.7.7?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.30?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.apache.curator/curator-framework@5.1.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.junit.platform/junit-platform-commons@1.6.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-buffer@4.1.48.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.dropwizard.metrics/metrics-core@4.1.12.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-handler@4.1.59.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.mockito/mockito-core@3.6.28?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.junit.platform/junit-platform-launcher@1.6.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-common@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.59.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-context@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.guava/guava@31.1-android?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-buffer@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.grpc/grpc-stub@1.53.0?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.google.protobuf/protobuf-java@3.22.2?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/io.netty/netty-handler@4.1.48.Final?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.sonatype.oss/netty-resolver@9?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.38.v20210224?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.5.1?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-test/dubbo-test-check@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-triple@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-dependencies/dubbo-dependencies-zookeeper-curator5@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-dependencies@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/.@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-spring-boot@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-xml@dubbo-demo-xml-provider?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-rpc@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-build-tools@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper-curator5@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-consumer?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-rpc/dubbo-rpc-triple@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-spring-boot@dubbo-demo-spring-boot-provider?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-xds@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-remoting@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-dependencies-bom@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-test/dubbo-test-spring@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-demo/dubbo-demo-api@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-remoting/dubbo-remoting-zookeeper@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-metadata@?type=jar",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:maven/dubbo-test@?type=jar",
+            "dependsOn": []
+        }
+    ]
+}
